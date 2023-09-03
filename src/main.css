@@ -46,5 +46,54 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+img {
+  width: 100%;
+  height: 100%;
+  display: block; }
+
 body {
   font-family: 'Nunito Sans', sans-serif; }
+
+.title {
+  color: inherit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal; }
+
+.subtitle {
+  color: inherit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 26px; }
+
+.theme-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: inherit; }
+
+.container {
+  width: 96%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.navbar {
+  background-color: inherit;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06); }
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0; }
+    .navbar .container .theme-container {
+      display: flex;
+      align-items: center;
+      gap: 8px; }
+
+@media (max-width: 478px) {
+  .navbar .container .title {
+    font-size: 14px; }
+  .navbar .container .theme-container .theme-title {
+    font-size: 12px; } }
