@@ -139,3 +139,12 @@ body.dark {
   color: #FFF; }
   body.dark .navbar {
     background-color: #2B3844; }
+  body.dark .form .form-control {
+    background-color: #2B3844; }
+    body.dark .form .form-control label {
+      color: #FFF; }
+    body.dark .form .form-control input {
+      background-color: #2B3844;
+      color: #FFF; }
+      body.dark .form .form-control input::placeholder {
+        color: #FFF; }

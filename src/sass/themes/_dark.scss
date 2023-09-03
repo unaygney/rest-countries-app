@@ -6,6 +6,26 @@ body{
         .navbar{
             background-color: $color-light-dark;
         }
+
+        .form{
+
+           .form-control{
+            background-color: $color-light-dark;
+            
+            label{
+                color: $color-white;
+            }
+
+            input{
+                background-color: $color-light-dark;
+                color: $color-white;
+
+                &::placeholder{
+                    color: $color-white;
+                }
+            }
+           }
+        }
     }
 
   
