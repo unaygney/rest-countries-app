@@ -51,6 +51,9 @@ img {
   height: 100%;
   display: block; }
 
+html, body {
+  height: 100%; }
+
 body {
   font-family: 'Nunito Sans', sans-serif; }
 
@@ -90,10 +93,49 @@ body {
     .navbar .container .theme-container {
       display: flex;
       align-items: center;
-      gap: 8px; }
+      gap: 8px;
+      cursor: pointer; }
 
 @media (max-width: 478px) {
   .navbar .container .title {
     font-size: 14px; }
   .navbar .container .theme-container .theme-title {
     font-size: 12px; } }
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px; }
+  .form .form-control input {
+    border: none; }
+  .form .form-control:first-child {
+    width: 480px;
+    height: 56px;
+    position: relative; }
+    .form .form-control:first-child input {
+      width: 100%;
+      height: 100%;
+      text-indent: 74px;
+      border: none;
+      border-radius: 5px; }
+    .form .form-control:first-child .img-wrapper {
+      position: absolute;
+      left: 32px;
+      top: 50%;
+      transform: translateY(-50%); }
+
+@media (max-width: 478px) {
+  .form {
+    flex-wrap: wrap;
+    gap: 40px; }
+    .form .form-control:first-child {
+      width: 100%; } }
+
+body {
+  background-color: #FAFAFA; }
+
+body.dark {
+  background-color: #202C36;
+  color: #FFF; }
+  body.dark .navbar {
+    background-color: #2B3844; }

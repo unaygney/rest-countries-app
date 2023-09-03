@@ -1,0 +1,12 @@
+body{
+    &.dark{
+        background-color: $bg-dark;
+        color: $color-white;
+
+        .navbar{
+            background-color: $color-light-dark;
+        }
+    }
+
+  
+}

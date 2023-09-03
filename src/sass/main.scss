@@ -9,4 +9,9 @@
 @import "components/container";
 
 // Layout
-@import "layout/navbar"
+@import "layout/navbar";
+@import "layout/search-bar";
+
+// Themes
+@import "themes/light";
+@import "themes/dark";

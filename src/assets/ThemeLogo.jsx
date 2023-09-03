@@ -2,12 +2,12 @@ import React from "react";
 
 function ThemeLogo() {
   return (
-    <div>
+    <>
       <svg
         width="20"
         height="20"
         viewBox="0 0 20 20"
-        fill="none"
+        fill=""
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -19,7 +19,7 @@ function ThemeLogo() {
           strokeWidth="1.25"
         />
       </svg>
-    </div>
+    </>
   );
 }
 
