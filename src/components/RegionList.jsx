@@ -9,7 +9,7 @@ function RegionList({ region, search }) {
 
   useEffect(() => {
     setApiData(data);
-  }, []);
+  }, [filteredData]);
 
  
 
