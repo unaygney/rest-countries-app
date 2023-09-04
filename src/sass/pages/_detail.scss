@@ -63,6 +63,7 @@
       flex-wrap: wrap;
       margin-top: 70px;
       gap: 10px;
+      margin-bottom: 60px;
 
       .country-link {
         padding: 5px 27px;
@@ -72,6 +73,18 @@
         border: 0px solid #979797;
         box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
       }
+    }
+  }
+}
+
+@media (max-width : 478px){
+  .region-detail-content{
+
+    .right-side{
+      .detail-content{
+        gap: 40px;
+      }
+
     }
   }
 }

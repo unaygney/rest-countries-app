@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 function RegionCard({country}) {
   const navigate = useNavigate();
   return (
-    <div className='card' onClick={() => navigate(`event/${country.name}`) }>
+    <div className='card' onClick={() => navigate(`country/${country.name}`) }>
       <div className="card-img-wrapper">
         <img src={country.flags.svg} alt={country.name} />
       </div>

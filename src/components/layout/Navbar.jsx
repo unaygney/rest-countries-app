@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from "react";
+import { Link } from "react-router-dom";
 //SVG
 import ThemeLogo from "../../assets/ThemeLogo.jsx";
 import ThemeContext from "../../context/ThemeContext.jsx";
@@ -13,7 +14,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="site-title">
-          <h1 className="title">Where in the world?</h1>
+        <Link to={'/'} className="title">Where in the world?</Link>
         </div>
 
         <div onClick={() => setTheme(!theme)} className="theme-container">

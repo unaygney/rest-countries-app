@@ -11,7 +11,7 @@ function RegionList({ region, search }) {
     setApiData(data);
   }, []);
 
-  console.log(search);
+ 
 
   useEffect(() => {
     const filtered = apiData?.filter(

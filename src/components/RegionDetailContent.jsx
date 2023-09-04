@@ -76,7 +76,7 @@ function RegionDetailContent() {
             </h6>
             <h6>
               <span className="bold">Currencies: </span>
-              {filtered[0]?.currencies.map((currency, index) => (
+              {filtered[0]?.currencies?.map((currency, index) => (
                 <span key={index}>{currency.name}</span>
               ))}
             </h6>
@@ -95,7 +95,7 @@ function RegionDetailContent() {
           <h3 className="theme-title">Border Countries:</h3>
           {filtered[0]?.borders?.map((border, index) => (
             <Link
-              to={`/event/${getName(border)}`}
+              to={`/country/${getName(border)}`}
               key={index}
               className="country-link"
             >
