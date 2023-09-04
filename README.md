@@ -10,11 +10,8 @@ This is a solution to the [REST Countries API with color theme switcher challeng
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ## Overview
 
@@ -31,12 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop-1](./screenshots/screenshot-1.png)
+![Desktop-2](./screenshots/screenshot-2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-with-react-lsk422nacc)
+- Live Site URL: [Live site URL here](https://rest-countries-api-app-mentor.netlify.app/)
 
 ## My process
 
