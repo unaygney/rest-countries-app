@@ -1,20 +1,17 @@
-import React, {useState} from "react";
 import "./main.css";
-
-//Layout
-import Navbar from "./components/layout/Navbar";
-//Components
-import SearchBar from "./components/SearchBar";
-import RegionList from "./components/RegionList";
+import {Routes , Route} from 'react-router-dom'
+import Home from "./pages/Home";
+import RegionDetail from "./pages/RegionDetail";
 function App() {
-  const [region, setFilterRegion] = useState('');
-  const [search, setSearch] = useState('')
   return (
-    <>
-      <Navbar />
-      <SearchBar region={region} setFilterRegion={setFilterRegion} search={search} setSearch={setSearch}  />
-      <RegionList region={region} search={search} />
-    </>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/event/:id" element={<RegionDetail/>} />
+      <Route path="/:id" element={<RegionDetail/>} />
+      <Route path="*" element={<Home />} />
+    </Routes>
+    
+    
   );
 }
 

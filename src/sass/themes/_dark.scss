@@ -34,6 +34,32 @@ body{
             }
         }
 
+        .region-detail-content{
+            .left-side{
+                a{
+                    background-color: $color-light-dark;
+                    color: $color-white;
+
+                    svg{
+                       path{
+                        fill: $color-white;
+                       }
+                    }
+                }
+            }
+
+            .right-side{
+                .border-countries{
+                    .country-link{
+                        background-color: $color-light-dark;
+                        color: $color-white;
+                        font-weight: 300;
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+
     }
 
   
